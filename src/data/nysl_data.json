@@ -1,0 +1,72 @@
+{
+    "locations": {
+        "AJ_Katzenmaier": {
+            "name": "AJ Katzenmaier",
+            "address": "24 W. Walton St., Chicago, IL 60610",
+            "url": "https://www.google.com/maps/place/24+W+Walton+St,+Chicago,+IL+60610"
+        },
+        "Greenbay": {
+            "name": "Greenbay Elementary",
+            "address": "1734 N. Orleans St., Chicago, IL 60614",
+            "url": "https://www.google.com/maps/place/1734+N+Orleans+St,+Chicago,+IL+60614"
+        },
+        "Howard_A_Yeager": {
+            "name": "Howard A Yeager",
+            "address": "2245 N. Southport Ave., Chicago, IL 60614",
+            "url": "https://www.google.com/maps/place/2245+N+Southport+Ave,+Chicago,+IL+60614"
+        },
+        "Marjorie_P_Hart": {
+            "name": "Marjorie P Hart",
+            "address": "2625 N. Orchard St., Chicago, IL 60614",
+            "url": "https://www.google.com/maps/place/2625+N+Orchard+St,+Chicago,+IL+60614"
+        },
+        "North_Elementary": {
+            "name": "North Elementary",
+            "address": "1409 N. Ogden Ave., Chicago, IL 60610",
+            "url": "https://www.google.com/maps/place/1409+N+Ogden+Ave,+Chicago,+IL+60610"
+        },
+        "South_Elementary": {
+            "name": "South Elementary",
+            "address": "910 W. Madison St., Chicago, IL 60607",
+            "url": "https://www.google.com/maps/place/910+W+Madison+St,+Chicago,+IL+60607"
+        }
+    },
+    "games": {
+        "2026_09_01_1": {
+            "date": "September 1",
+            "time": "9:30 a.m.",
+            "teams": "U1 and U4",
+            "location": "AJ_Katzenmaier"
+        },
+        "2026_09_01_2": {
+            "date": "September 1",
+            "time": "1:00 p.m.",
+            "teams": "U3 and U2",
+            "location": "Greenbay"
+        },
+        "2026_09_08_1": {
+            "date": "September 8",
+            "time": "9:30 a.m.",
+            "teams": "U5 and U6",
+            "location": "Howard_A_Yeager"
+        },
+        "2026_09_08_2": {
+            "date": "September 8",
+            "time": "1:00 p.m.",
+            "teams": "U6 and U1",
+            "location": "Marjorie_P_Hart"
+        },
+        "2026_09_15_1": {
+            "date": "September 15",
+            "time": "9:30 a.m.",
+            "teams": "U2 and U4",
+            "location": "North_Elementary"
+        },
+        "2026_09_15_2": {
+            "date": "September 15",
+            "time": "1:00 p.m.",
+            "teams": "U3 and U5",
+            "location": "AJ_Katzenmaier"
+        }
+    }
+}
