@@ -5,8 +5,10 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "cra-template-pwa": "2.0.0",
+    "firebase": "^12.18.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "react-firebase-hooks": "^5.1.1",
     "react-router-dom": "^7.18.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^6.2.1"
