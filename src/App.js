@@ -4,7 +4,8 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Schedule from './components/Schedule';
 import GameDetails from './components/GameDetails';
-import ChatBoard from './components/ChatBoard'; // Importamos el Chat
+import ChatBoard from './components/ChatBoard';
+import GamePhotos from './components/GamePhotos';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/games" element={<Schedule />} />
           <Route path="/game/:id" element={<GameDetails />} />
-          {/* Añadimos la ruta dinámica para el chat */}
-          <Route path="/chat/:id" element={<ChatBoard />} /> 
+          <Route path="/chat/:id" element={<ChatBoard />} /> {/* Ruta dinámica para el chat */}
+          <Route path="/photos/:id" element={<GamePhotos />} />
         </Routes>
       </div>
     </Router>
