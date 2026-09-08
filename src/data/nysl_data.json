@@ -3,34 +3,41 @@
         "AJ_Katzenmaier": {
             "name": "AJ Katzenmaier",
             "address": "24 W. Walton St., Chicago, IL 60610",
-            "url": "https://www.google.com/maps/place/24+W+Walton+St,+Chicago,+IL+60610"
+            "url": "https://www.google.com/maps/place/24+W+Walton+St,+Chicago,+IL+60610",
+            "embedUrl": "https://maps.google.com/maps?q=24%20W.%20Walton%20St.,%20Chicago,%20IL%2060610&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         "Greenbay": {
             "name": "Greenbay Elementary",
             "address": "1734 N. Orleans St., Chicago, IL 60614",
-            "url": "https://www.google.com/maps/place/1734+N+Orleans+St,+Chicago,+IL+60614"
+            "url": "https://www.google.com/maps/place/1734+N+Orleans+St,+Chicago,+IL+60614",
+            "embedUrl": "https://maps.google.com/maps?q=1734%20N.%20Orleans%20St.,%20Chicago,%20IL%2060614&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         "Howard_A_Yeager": {
             "name": "Howard A Yeager",
             "address": "2245 N. Southport Ave., Chicago, IL 60614",
-            "url": "https://www.google.com/maps/place/2245+N+Southport+Ave,+Chicago,+IL+60614"
+            "url": "https://www.google.com/maps/place/2245+N+Southport+Ave,+Chicago,+IL+60614",
+            "embedUrl": "https://maps.google.com/maps?q=2245%20N.%20Southport%20Ave.,%20Chicago,%20IL%2060614&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         "Marjorie_P_Hart": {
             "name": "Marjorie P Hart",
             "address": "2625 N. Orchard St., Chicago, IL 60614",
-            "url": "https://www.google.com/maps/place/2625+N+Orchard+St,+Chicago,+IL+60614"
+            "url": "https://www.google.com/maps/place/2625+N+Orchard+St,+Chicago,+IL+60614",
+            "embedUrl": "https://maps.google.com/maps?q=2625%20N.%20Orchard%20St.,%20Chicago,%20IL%2060614&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         "North_Elementary": {
             "name": "North Elementary",
             "address": "1409 N. Ogden Ave., Chicago, IL 60610",
-            "url": "https://www.google.com/maps/place/1409+N+Ogden+Ave,+Chicago,+IL+60610"
+            "url": "https://www.google.com/maps/place/1409+N+Ogden+Ave,+Chicago,+IL+60610",
+            "embedUrl": "https://maps.google.com/maps?q=1409%20N.%20Ogden%20Ave.,%20Chicago,%20IL%2060610&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         "South_Elementary": {
             "name": "South Elementary",
             "address": "910 W. Madison St., Chicago, IL 60607",
-            "url": "https://www.google.com/maps/place/910+W+Madison+St,+Chicago,+IL+60607"
+            "url": "https://www.google.com/maps/place/910+W+Madison+St,+Chicago,+IL+60607",
+            "embedUrl": "https://maps.google.com/maps?q=910%20W.%20Madison%20St.,%20Chicago,%20IL%2060607&t=&z=15&ie=UTF8&iwloc=&output=embed"
         }
     },
+
     "games": {
         "2026_09_01_1": {
             "date": "September 1",

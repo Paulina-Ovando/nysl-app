@@ -1,9 +1,11 @@
 import React from 'react';
-import data from '../data/nysl_data.json'; // Importamos la base de datos local
+import { useNavigate } from 'react-router-dom';
+import data from '../data/nysl_data.json';
 
 const Schedule = () => {
-    // Convertimos el objeto de partidos en un arreglo para poder iterarlo con .map()
-    const games = Object.values(data.games);
+    const navigate = useNavigate();
+    // Object.entries nos da arreglos de [llave, valor] para no perder el ID
+    const gamesEntries = Object.entries(data.games);
     const locations = data.locations;
 
     return (
@@ -21,29 +23,23 @@ const Schedule = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {games.map((game, index) => {
-                            // Extraemos la información completa de la escuela usando la llave (ej. "AJ_Katzenmaier")
+                        {gamesEntries.map(([gameId, game]) => {
                             const locationInfo = locations[game.location];
 
                             return (
-                                <tr key={index}>
+                                <tr key={gameId} onClick={() => navigate(`/game/${gameId}`)} style={{ cursor: 'pointer' }}>
                                     <td className="fw-bold">{game.date}</td>
                                     <td>{game.time}</td>
                                     <td>{game.teams}</td>
-                                    <td>
-                                        <a href={locationInfo.url} target="_blank" rel="noopener noreferrer" className="text-decoration-none fw-bold">
-                                            {locationInfo.name}
-                                        </a>
-                                        <br />
-                                        <small className="text-muted">{locationInfo.address}</small>
-                                    </td>
+                                    <td>{locationInfo.name}</td>
                                 </tr>
                             );
-                        })}
+                        }
+                        )}
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div >
     );
 };
 
